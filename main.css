@@ -15,6 +15,7 @@ html {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+    padding: 16px;
 }
 
 header,
@@ -214,42 +215,57 @@ input.error:focus {
     nav {
         width: 10%;
     }
-    header, nav, section {
+
+    header,
+    nav,
+    section {
         width: 90%;
         height: auto;
     }
+
     .container-flex img {
         object-fit: contain;
         width: 100%;
         height: auto;
     }
-    
+
 }
 
 @media (max-width: 768px) {
 
-    header, nav, section {
+    header,
+    nav,
+    section {
         width: 100%;
         height: auto;
+        margin: 8px 8px 8px 8px;
     }
+
     .container-flex img {
         object-fit: contain;
         width: 100%;
         height: auto;
     }
-    
+    .responsive {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 425px) {
 
-    header, nav, section {
+    header,
+    nav,
+    section {
         width: 100%;
         height: auto;
     }
+
     .container-flex img {
         object-fit: contain;
         width: 100%;
         height: auto;
     }
-    
+    .responsive {
+        flex-direction: column;
+    }
 }
