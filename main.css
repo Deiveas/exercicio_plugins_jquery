@@ -209,3 +209,47 @@ input.error:focus {
     border-color: red;
     outline-color: red;
 }
+
+@media (max-width: 1024px) {
+    nav {
+        width: 10%;
+    }
+    header, nav, section {
+        width: 90%;
+        height: auto;
+    }
+    .container-flex img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    header, nav, section {
+        width: 100%;
+        height: auto;
+    }
+    .container-flex img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 425px) {
+
+    header, nav, section {
+        width: 100%;
+        height: auto;
+    }
+    .container-flex img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+    
+}
